@@ -4,6 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>ΟΕΔΔ</title>
+
+  <!-- Font Awesome Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -30,7 +37,10 @@
       line-height: 1.4;
     }
     a {
-      display: block;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
       background: #b91c1c;
       color: white;
       text-decoration: none;
@@ -40,6 +50,9 @@
       font-size: 16px;
       font-weight: bold;
     }
+    a i {
+      font-size: 18px;
+    }
     a:hover {
       background: #991b1b;
     }
@@ -48,18 +61,35 @@
 <body>
   <div class="container">
 
-    <!-- Team Logo -->
+    <!-- Logo -->
     <img src="logo.png" alt="ΟΕΔΔ Logo" class="logo" />
 
     <!-- Team Name -->
-    <h1>Ομάδα Εθελοντών<br>Δασοπυροσβεστών Διασωστών</h1>
+    <h1>
+      Ομάδα Εθελοντών<br>
+      Δασοπυροσβεστών Διασωστών
+    </h1>
 
     <!-- Links -->
-    <a href="https://www.oedd.gr" target="_blank">🌐 Επίσημη Ιστοσελίδα</a>
-    <a href="https://www.facebook.com/oeddgr" target="_blank">Facebook</a>
-    <a href="https://www.instagram.com/oeddgr/" target="_blank">Instagram</a>
-    <a href="https://www.tiktok.com/@oeddgr" target="_blank">TikTok</a>
-    <a href="https://www.youtube.com/@oeddgr" target="_blank">YouTube</a>
+    <a href="https://www.oedd.gr" target="_blank">
+      <i class="fa-solid fa-globe"></i> Επίσημη Ιστοσελίδα
+    </a>
+
+    <a href="https://www.facebook.com/oeddgr" target="_blank">
+      <i class="fa-brands fa-facebook"></i> Facebook
+    </a>
+
+    <a href="https://www.instagram.com/oeddgr/" target="_blank">
+      <i class="fa-brands fa-instagram"></i> Instagram
+    </a>
+
+    <a href="https://www.tiktok.com/@oeddgr" target="_blank">
+      <i class="fa-brands fa-tiktok"></i> TikTok
+    </a>
+
+    <a href="https://www.youtube.com/@oeddgr" target="_blank">
+      <i class="fa-brands fa-youtube"></i> YouTube
+    </a>
 
   </div>
 </body>
